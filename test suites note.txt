@@ -1,0 +1,11 @@
+EdgeTest: {<input>, <state1>}
+
+{<"a", "a">, <"DATE", "TIME">;  
+"c", "b", "a", "b", "a", "b", "a", "b", "a", "b", "a", "c", "d">, <"MIN", "MIN", "HOUR", "HOUR", "DAY", "DAY", "MONTH", "MONTH", "YEAR", "YEAR", "TIME", "MIN", "TIME">;
+<"b", "a", "d">, <"ALARM", "CHIME", "TIME">}
+
+
+ADUPTest: {<input>, <state1>}
+{<"c", "b", "a", "b", "a", "b", "a", "b", "a", "b">, <"MIN", "MIN", "HOUR", "HOUR", "DAY", "DAY", "MONTH", "MONTH", "YEAR", "YEAR">; 
+<"c", "b", "a", "b", "a", "b", "a", "b", "a", "b">, <"MIN", "MIN", "HOUR", "HOUR", "DAY", "DAY", "MONTH", "MONTH", "YEAR", "YEAR">; 
+<"c", "b", "b", "a", "b", "b", "a", "b", "b", "a", "b", "b", "b", "a", "b", "b", "b">, <"MIN", "MIN", "MIN", "HOUR", "HOUR", "HOUR", "DAY", "DAY", "DAY", "MONTH", "MONTH", "MONTH", "YEAR", "YEAR", "YEAR">}
